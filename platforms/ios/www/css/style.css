@@ -1,0 +1,172 @@
+/* Empty. Add your own CSS if you like */
+			html, body {
+  				width:  100%;
+  				height: 100%;
+                overflow-x: hidden; 
+                overflow-y: hidden;
+  				margin: 0px;
+			}
+			
+    		.test-area {
+			    background: #ffffff;
+			    position: absolute;
+			    
+			}
+
+			.ball {
+				-webkit-transform: translateZ(0);
+				position: absolute;
+			    background: #ff2420;
+			    opacity:0;
+			    border-radius: 50%;
+			    bottom:14%;
+			    left: 50%;
+			    z-index:10;
+			    height: 0vh;
+            	width: 0vh;
+            	margin-left: 0vh;
+			    transform-origin: 0%;
+			}
+
+			.scorediv {
+				-webkit-transform: translateZ(0);
+				position: absolute;
+				width:100%;
+                top: 43.8%;
+                left: 50%;
+                margin-left:-50%;
+                opacity:0;
+                text-align:center;
+                z-index:0;
+			}
+
+            .score { 
+                color:#dedede;
+                font-size:60vh;
+                font-family:tallFont;
+                opacity:100;
+            }
+
+			#restart {
+				-webkit-transform: translateZ(0);
+				position:absolute;
+
+				left: 50%;
+				height: 100%;
+				width:100%;
+				background-color: none;
+				z-index:9;
+				margin-left: -50%;
+				bottom: 0px;
+				opacity:0;
+				display:none;
+				border-radius: 20px;
+				
+			}
+			#restartholder{
+				position:absolute;
+				height:100%;
+				width:100%;
+				bottom:4%;
+				opacity:100;
+				text-align:center;
+			}
+			#restartimg {
+				position:relative;
+				
+				height:4.2%;
+				
+				
+				opacity:0;
+				top:83.8%;
+				
+				z-index:6;
+			}
+			
+
+			#highscore {
+				
+				position:absolute;
+				width:100%;
+				left:50%;
+				top:8%;
+				text-align:center;
+				font-size:10vh;
+				font-family: bebas;
+				margin-left: -50%;
+				opacity:0;
+				z-index:6;
+			}
+
+			#notap {
+				-webkit-transform: translateZ(0);
+				display:none;
+				position:absolute;
+				height:100%;
+				width:100%;
+				background-color:none;
+				z-index:11;
+			}
+			
+			#leaderboard_button{
+				
+				position:absolute;
+				display:none;
+				opacity:0;
+				bottom:2.7%;
+				right:3%;
+				height:10vh;
+				width:10vh;
+				z-index:10;
+			}
+			#hint_button {
+				position:absolute;
+				display:none;
+				opacity:0;
+				bottom: 2.5%;
+				height: 11vh;
+				width:11vh;
+				left:3%;
+				z-index:10;
+			}
+
+			#balls {
+				-webkit-transform: translateZ(0);
+				position:absolute;
+				opacity:0;
+				bottom: 56%;
+				width: 45vh;
+				bottom: 38.5%;
+				left:50%;
+				margin-left:-22.5vh;
+				z-index:4;
+			}
+
+			#gameoverimg {
+				position:relative;
+				height:30.5%;
+				
+				bottom:4%;
+			}
+
+			#gameover{
+            	position:absolute;
+            	text-align: center;
+            	display:none;
+            	opacity:0;
+			    width:200%;
+			    height:100%;
+			    left:50%;
+			    margin-left:-100%;
+			    bottom: -71%;
+			}
+			
+			@font-face {
+    			font-family: bebas;
+    			src: url(bebas.otf);
+			}
+
+			@font-face {
+    			font-family: tallFont;
+    			src: url(golong.ttf);
+			}

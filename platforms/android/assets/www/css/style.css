@@ -1,0 +1,118 @@
+/* Empty. Add your own CSS if you like */
+			html, body {
+  				width:  100%;
+  				height: 100%;
+                overflow-x: hidden; 
+                overflow-y: hidden;
+  				margin: 0px;
+			}
+			
+    		.test-area {
+			    background: #ffffff;
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    bottom: 0;
+			    left: 0;
+			}
+
+			.ball {
+			    background: #ff2420;
+			    border-radius: 50%;
+			    position: absolute;
+			    top: 115%;
+			    left: 50%;
+
+			    width: 18vh;
+			    height: 18vh;
+			    margin-left:-9vh;
+			    transform-origin: 0%;
+			}
+
+			.scorediv {
+				position: absolute;
+				width:100%;
+                top: 44%;
+                left: 50%;
+                margin-left:-50%;
+                display:none;
+                text-align:center;
+                z-index:0;
+			}
+
+            .score { 
+                color:#dedede;
+                font-size:60vh;
+                font-family:tallFont
+            }
+
+            #platform{
+            	position:absolute;
+			    width:100%;
+			    height:25px;
+			    bottom: -25px;
+			    background:grey;
+			}
+			#restart {
+				position:absolute;
+				left: 50%;
+				height: 100%;
+				width:100%;
+				background-color: none;
+				z-index:3;
+				margin-left: -50%;
+				bottom: 0px;
+				display:none;
+				border-radius: 20px;
+				
+			}
+			#restartimg {
+				position:absolute;
+				left:50%;
+				width:28vh;
+				top:83.5%;
+				margin-left:-14vh;
+			}
+
+			#highscore {
+				display:none;
+				position:absolute;
+				width:269px;
+				left:50%;
+				top:8%;
+				text-align:center;
+				font-size:400%;
+				font-family: bebas;
+				margin-left: -134.5px;
+			}
+
+			
+			#gameoverimg {
+				position:relative;
+				height:28%;
+				top:72%;
+
+			}
+			#gameover{
+				
+            	position:absolute;
+            	text-align:center;
+
+            	left:50%;
+			    width:100%;
+			    height:100%;
+			    margin-left:-50%;
+			    
+			    bottom: 4%;
+			    display: none;
+
+			}
+			@font-face {
+    			font-family: bebas;
+    			src: url(bebas.otf);
+			}
+
+			@font-face {
+    			font-family: tallFont;
+    			src: url(golong.ttf);
+			}
